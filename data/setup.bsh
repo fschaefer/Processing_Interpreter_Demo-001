@@ -1,0 +1,14 @@
+// set the PApplet size
+size(200, 200);
+
+// fill the background with a nice color
+background(255, 204, 0);
+
+// print the string we got from processing
+println("BeanShell is printing a String " + aString);
+
+// give aString a modified version
+aString = "from BeanShell";
+
+// a value for use in draw.bsh (dynamic typed)
+j = 2;
